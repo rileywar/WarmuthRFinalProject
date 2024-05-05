@@ -1,135 +1,151 @@
 body {
-    background-color: #7780e3;
- }
- .home-page {
-    margin:0; 
-    text-align: center;
- }
+  background-color: #7780e3;
+}
+.home-page {
+  margin:0; 
+  text-align: center;
+}
 
 .nav{
-   display: flex;
-   justify-content: space-between;
+ display: flex;
 }
 
 .menu-item{
-   cursor: pointer;
-   display: inline-flex;
-   align-items: center;
-   padding: 10px 20px;
-   font-size: 30px;
- }
- 
- 
- 
- .menu {
-   width: 100%;
-   list-style-type: none;
-   text-align: center;
- }
- 
- 
- .item {
-   display: flex;
-   font-family: arial;
-   color: white;
-   text-decoration: none;
-   font-weight: 500;
-   
- }
+ cursor: pointer;
+ padding: 10px 20px;
+ font-size: 30px;
+ transition: all .2s ease-in-out;
+}
 
- .menu-item:hover, .menu-item:focus{
-  
-   background: linear-gradient(45deg, #0077B5, white);
-   
-   
- }
 
+
+.menu {
+display: flex;
+justify-content: space-evenly;
+ width: 100%;
+ list-style-type: none;
+ text-align: center;
+}
+
+
+.item {
+ font-family: arial;
+ color: white;
+ text-decoration: none;
+ font-weight: 500;
+ transition: all .2s ease-in-out;
+}
+
+.menu-item:hover, .menu-item:focus{
+ transform: scale(1.1);
  
- .ExploreCH{
-   display: flex;
-   justify-content: center;
-   height: 400px;
-   width: 100%;
- }
+}
 
- .old-well-image{
-   display: flex;
-   background-image: url('oldwellunc.jpg');
-   align-self: center;
-   height: 80%;
-   width: 50%;
-   border-radius: 15px; 
-   border: 8px solid white; 
- }
 
- .CHtext{
-   color: whitesmoke;
-   display: flex;
-   font-size: 70px;
- }
+.ExploreCH{
+ display: flex;
+ justify-content: center;
+ height: 400px;
+ width: 100%;
+}
 
- h2{
-   font-size: 40px;
- }
- .mawimage{
-   display: flex;
-   height: 500px;
-   justify-content: center;
- }
- .maw {
-   display: flex;
-    height: 80%; 
-    width: 50%;
-    border-radius: 15px; 
-    border: 8px solid white; 
- }
- 
- .home-page h1 a{
-    color: black; 
- }
- 
- .home-page h1 a:hover { 
-    color: white; 
- }
+.old-well-image{
+ display: flex;
+ background-image: url('oldwellunc.jpg');
+ align-self: center;
+ height: 80%;
+ width: 50%;
+ border-radius: 15px; 
+ border: 8px solid white; 
+}
+
+.CHtext{
+justify-self: flex-start;
+align-self: flex-end;
+ color: whitesmoke;
+ font-size: 70px;
+}
+
+h2{
+ font-size: 40px;
+}
+.mawimage{
+ display: flex;
+ height: 500px;
+ justify-content: center;
+}
+.maw {
+ display: flex;
+  height: 100%; 
+  width: 50%;
+  border-radius: 15px; 
+  border: 8px solid white; 
+}
+
+.home-page h1 a{
+  color: black; 
+  top: 0;
+}
+
+.home-page h1 a:hover { 
+  color: white; 
+}
 .alsimage{
-   display: flex;
-   justify-content: center;
-   height: 400px;
+ display: flex;
+ justify-content: center;
+ height: 400px;
 }
 .image-4{
-   height: 90%;
-   width: 60%;
+ height: 90%;
+ width: 60%;
 }
 
 .image-5{
-   height: 100%;
-   width: 70%;
+ height: 100%;
+ width: 70%;
 }
 
 
 .image-8{
-   height: 100%;
-   width: 70%;
+ height: 100%;
+ width: 70%;
 
 }
 
 .image-9{
-   height: 400px;
+height: 100%;
+width: 70%;
+}
 
+p{
+display: flex;
+justify-self: center;
 }
 
 .top-of-the-hill:hover {
-   transform: scale(1.1);
- }
+ transform: scale(1.1);
+}
 
- .als-burger-shack:hover {
-   transform: scale(1.1);
- }
+.als-burger-shack:hover {
+ transform: scale(1.1);
+}
 
- .la-residence:hover {
-   transform: scale(1.1);
- }
+.la-residence:hover {
+ transform: scale(1.1);
+}
 
- .pantana-bobs:hover {
-   transform: scale(1.1);
- }
+.pantana-bobs:hover {
+ transform: scale(1.1);
+}
+
+@media screen and (min-width: 750px) {
+.alsimage{
+  height: 550px;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.alsimage{
+  height: 650px;
+}
+}
